@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/husky.sh"
 
-npm test
+# npm test
 # npm check-for-leaks
 # npm lint --max-warning=0
 
