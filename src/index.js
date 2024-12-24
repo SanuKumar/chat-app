@@ -8,6 +8,8 @@ require("dotenv").config({ path: `.env.${process.env.NODE_ENV}` });
 
 const app = express();
 
+app.use(express.json());
+
 const PORT = process.env.PORT || 5000;
 
 app.use("/api/auth", authRoutes);
